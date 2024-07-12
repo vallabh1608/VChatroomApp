@@ -1,0 +1,21 @@
+#name-from{
+	height: 100vh;
+	background-color: #25D366;
+}
+#name-value{
+	border: 2px solid black;
+}
+body {
+    animation: zoomIn 1s ease-in-out forwards;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+
